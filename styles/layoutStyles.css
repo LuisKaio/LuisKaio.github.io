@@ -1,0 +1,63 @@
+.navbar {
+	background-color: white;
+	border-radius: 20px;
+	width: auto;
+	height: auto;
+	padding: 20px;
+	top: 18%;
+	position: fixed;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 15px;
+}
+
+.navlist {
+	list-style-type: none;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.navlist li ul {
+	list-style-type: none;
+	/*visibility: hidden;*/
+}
+
+.comic {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 14px;
+	/*margin-right: 1000px;*/
+	width: 70em;
+	height: 1em;
+} 
+
+.footer {
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 13px;
+	margin-top: 40px;
+	/*background-color: white;*/
+}
+
+img {
+	opacity: 0.5;
+	filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+body {
+	overflow: auto;
+	background-color: lightblue;
+	/*background-image: url("http://www.zingerbugimages.com/backgrounds/light_blue_painted_brick_wall.jpg");*/
+	/*opacity: 0.8;
+	background-color:transparent;*/
+	background-repeat:repeat;
+   	background-position:center;
+    	background-attachment:fixed;
+    	background-size:cover;
+}
+
+.restart {
+	margin-top: 20px;
+}

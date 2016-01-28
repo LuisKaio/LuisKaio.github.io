@@ -1,0 +1,16 @@
+.individualletter{
+	/*float: left;*/
+	text-align: left;
+	color: MediumSlateBlue;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	letter-spacing: normal;
+	/*border: solid;*/
+}
+.word-container{
+	float: left;
+	width: 100%;
+	display: inline-block;
+}
+.gametext{
+	margin: 0;
+}

@@ -1,0 +1,130 @@
+.wrapper{
+  max-width: 100px
+  margin: 0 auto;
+  text-align: center;
+  /*padding-left: 300px;*/
+  /*padding-bottom: 100px;*/
+}
+
+.bottom{
+  /*display: none;*/
+  border: solid 2px black;
+  height: 30px;
+  width: 40px;
+  border-bottom: transparent;
+}
+
+.pole{
+  /*display: none;*/
+  margin-left: 20px;
+  width: 2px;
+  height: 50px;
+  border: solid 2px black;
+  border-top: transparent;
+  border-bottom: transparent;
+  background-color: white;
+}
+
+.h-pole{
+  /*display: none;*/
+  margin-left: 20px;
+  height: 2px;
+  width: 50px;
+  border: solid 2px black;
+}
+
+.rope{
+  /*display: none;*/
+  width: 2px;
+  height: 20px;
+  border: solid 2px black;
+  position: absolute;
+  left: 575px;
+  top: 206px;
+}
+
+
+.head{
+  visibility: hidden;
+  /*display: none;*/
+  width: 10px;
+  height: 10px;
+  border: solid 2px black;
+  border-radius: 50%;
+  position: absolute;
+  left: 575px;
+  top: 170px;
+  z-index: 8;
+  background-color: white;
+}
+
+.body{
+  visibility: hidden;
+  /*display: none;*/
+  width: 10px;
+  height: 20px;
+  border: solid 2px black;
+  border-radius: 50%;
+  position: absolute;
+  top: 184px;
+  left: 575px;
+  background-color: white;
+  z-index: 2;
+}
+
+.arms{
+  position: absolute;
+  left: 63px;
+}
+
+.left-arm{
+  visibility: hidden;
+  /*display: none;*/
+  position: absolute;
+  width: 10px;
+  top: 28px;
+  left: 502px;
+  border: solid 2px black;
+  border-right: transparent;
+  height: 2px;
+}
+
+.right-arm{
+  visibility: hidden;
+  /*display: none;*/
+  position: absolute;
+  width: 10px;
+  top: 28px;
+  left: 524px;
+  border: solid 2px black;
+  border-left: transparent;
+  height: 2px;
+}
+
+.legs{
+  position: absolute;
+}
+
+.right-leg{
+  /*display: none;*/
+  visibility: hidden;
+  position: absolute;
+  height: 15px;
+  width: 2px;
+  top: 37px;
+  left: 74px;
+  border: solid 2px black;
+  border-top: transparent;
+}
+
+.left-leg{
+  /*display: none;*/
+  visibility: hidden;
+  position: absolute;
+  height: 15px;
+  top: 37px;
+  left: 68px;
+  border: solid 2px black;
+  border-top: transparent;
+  width: 2px;
+}
