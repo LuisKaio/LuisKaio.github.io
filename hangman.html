@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles/layoutStyles.css">
+	<link rel="stylesheet" type="text/css" href="styles/indexStyles.css"/>
+	<link rel="stylesheet" type="text/css" href="styles/aboutStyles.css"/>
+	<link rel="stylesheet" type="text/css" href="styles/hangman.css"/>
+	<link rel="stylesheet" type="text/css" href="styles/style.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="scripts/hangman.js"></script>
+</head>
+<body onkeypress="keypress(event);">	
+	<div id="docbody" class="docbody">
+		<div id="navbar" class="navbar" >
+			<ul id="navlist" class="navlist">
+				<h4>Navigation</h4>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+				<li>
+					Hangman Game
+				</li>
+			</ul>
+		</div>
+
+		<div id="bodycontainer" class="bodycontainer">
+			<h2>Hangman the Game</h2>
+			<div class="wrapper">
+				<img id="wrapper" src='resources/1.png'></img>
+			</div>
+			<div> 
+				<p class="comic">Word Catagory:</p> <p id="description"></p> <p id="text"></p>
+				<p class="comic">Your letters:</p> <p id="keypress"> </p> <p id="text"></p>
+				<p class="comic">Status:</p> <p id="status" class="comic"></p>
+			</div>
+
+			<br>
+
+			<div id="word-container" class="word-container">
+			</div>
+			<button id="restart" class="restart" onclick="restart()">Restart</button>
+		</div>
+	<div class="footer">
+		<hr width="90%">
+		<p>Created by LuisKaio, Jwu130</p>
+		<p>Queens College <br/> 
+			65-30 Kissena Blvd | Flushing, NY 11367 <br/>
+			(718) 997-5000</p>
+	</div>
+</body>
+</html>
